@@ -1,0 +1,13 @@
+.barra {
+	background-color: #D3CCBE;
+	font-family: HandMarker;
+	font-size: 30px;
+}
+.barra .nav-link {
+  color: #AA835C; /* Color del texto para enlaces inactivos */
+}
+
+/*.barra .nav-link.active,
+.barra .nav-link:hover {
+  color: yellow; /* Color del texto para enlace activo y enlace en hover 
+}*/
