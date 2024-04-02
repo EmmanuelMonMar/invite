@@ -7,7 +7,9 @@
   color: #AA835C; /* Color del texto para enlaces inactivos */
 }
 
-/*.barra .nav-link.active,
-.barra .nav-link:hover {
-  color: yellow; /* Color del texto para enlace activo y enlace en hover 
-}*/
+.nav-item.active {
+  /* Estilos para el elemento activo */
+  background-color: #d6c38b; /* Por ejemplo, cambiar el color de fondo */
+  /* Otros estilos que desees aplicar */
+}
+

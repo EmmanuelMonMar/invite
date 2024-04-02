@@ -13,17 +13,9 @@ import { provideRouter } from '@angular/router';
 export class AppComponent {
 	title = 'Our wedding';
 
-/*	start(){
-		console.log("click en start");
-	}
-	church(){
-		console.log("click en church");
-		this.router.navigate("/iglesia");
-	}
-	party(){
-		console.log("click en party");
-	}
-	details(){
-		console.log("click en details");
+/*	reproducir() {
+		const audio = new Audio('../../assets/music/bruno.mp3');
+		audio.play();
 	}*/
+
 }

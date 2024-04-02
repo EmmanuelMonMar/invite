@@ -8,22 +8,24 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <main class="main">
-  <div class="barra">
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/invitacion">Nuestra Boda</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/iglesia">Iglesia</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/recepcion">Recepción y Boda Civil</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/detalles">Detalles importantes</a>
-      </li>
-    </ul>
-  </div>
+
+  <!-- app.component.html -->
+    <div class="barra">
+      <ul class="nav justify-content-center">
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/invitacion">Nuestra Boda</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/iglesia">Iglesia</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/recepcion">Recepción y Boda Civil</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/detalles">Detalles importantes</a>
+        </li>
+      </ul>
+    </div>
 </main>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
@@ -35,3 +37,8 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <router-outlet />
+
+<audio autoplay loop controls>
+  <source src="../../assets/music/bruno.mp3" type="audio/mpeg">
+    Tu navegador no soporta la etiqueta de audio.
+  </audio>

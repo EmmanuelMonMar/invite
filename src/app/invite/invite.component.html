@@ -1,4 +1,8 @@
 <main>
+	<head>
+		<script src="https://kit.fontawesome.com/5a95d5245f.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
 	<div class="book">
 		<!--div class="book-cover">
 			<div>
@@ -8,24 +12,33 @@
 			</div>
 		</div-->
 
-<div id="video-background">
-  <video autoplay loop muted>
-    <source src="../../assets/video/background.mp4" type="video/mp4">
-    <!-- También puedes agregar otros formatos de video aquí -->
-  </video>
-  <!-- Aquí puedes agregar otros contenidos dentro del div, como texto u otros elementos -->
-</div>
+		<div id="video-background">
+			<video autoplay muted loop>
+				<source src="../../assets/video/background.mp4" type="video/mp4">
+					<!-- También puedes agregar otros formatos de video aquí -->
+			</video>
+				<!-- Aquí puedes agregar otros contenidos dentro del div, como texto u otros elementos -->
+				<div class="book-cover">
+					<div>
+						<h1>{{ groomName }}</h1>
+						<h1>y</h1>
+						<h1>{{ brideName }}</h1>
+					</div>
+				</div>
+		</div>
 
 
-		<div class="book-content">
+			<div class="book-content">
 				<div class="col text-center">
-					<h1>{{ title }}</h1>
+					<h1> ¡Nos vamos a casar! </h1>
+					<img class="icon-size-inverted" src="../../assets/pics/icons/rabbit.svg" alt="rabbit">
+					<img class="icon-size" src="../../assets/pics/icons/heart-regular.svg" alt="heart">
+					<img class="icon-size" src="../../assets/pics/icons/rabbit.svg" alt="rabbit">
 				</div>
 
 
 				<div class="col text-center">
-					<h2> Nuestra Boda </h2>
-					<h3> Estamos muy emocionados de compartirte </h3>
+					<h2> Estamos muy emocionados de compartirte </h2>
 					<h3> que hemos decidido unirnos en sagrado matromonio </h3>
 					<h3> y estás cordialmente invitado </h3>
 					<div class="line"></div>
@@ -36,8 +49,8 @@
 					<h2> Padres del novio: </h2>
 					<h3> Victoria Martinez García </h3>
 					<h3> Justino Monterrosas Zambrano </h3>
-
 				</div>
-		</div>
-	</div>
+			</div>
+		</div>		
+	</body>
 </main>
