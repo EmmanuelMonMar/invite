@@ -23,12 +23,12 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/fonts"/*,
+              "src/assets/fonts",
               {
                 "glob": "_redirects",
                 "input": "src",
                 "output": "/"
-              }*/
+              }
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
