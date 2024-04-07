@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "wedding-aleli-manolo": {
+    "invite": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "wedding-aleli-manolo:build:production"
+              "buildTarget": "invite:build:production"
             },
             "development": {
-              "buildTarget": "wedding-aleli-manolo:build:development"
+              "buildTarget": "invite:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "wedding-aleli-manolo:build"
+            "buildTarget": "invite:build"
           }
         },
         "test": {
