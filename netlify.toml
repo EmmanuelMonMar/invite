@@ -1,7 +1,7 @@
 [build]
 	base = "invite"
 	command = "ng build"
-	publish = "dist/browser"
+	publish = "dist/"
 
 	[[redirects]]
 	from = "/*"
