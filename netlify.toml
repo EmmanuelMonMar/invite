@@ -1,5 +1,5 @@
 [build]
-	base = "invite"
+	base = "/"
 	command = "ng build"
 	publish = "dist/"
 
