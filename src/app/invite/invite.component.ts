@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
+
 @Component({
   selector: 'app-invite',
   standalone: true,
@@ -10,8 +11,9 @@ import { RouterOutlet } from '@angular/router';
 })
 export class InviteComponent {
 
-groomName = 'Elizabeth';
+	groomName = 'Elizabeth';
 	brideName = 'Emmanuel';
 	title = "Nuestra Boda";
 	coverInvitation: string = '../../assets/pics/coverInvitation.png';
+
 }
