@@ -15,18 +15,18 @@ export class Countdown implements AfterViewInit {
   targetTime: any = this.targetDate.getTime();
   difference!: number;
   months: Array<string> = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
+    'Enero',
+    'Febrero',
+    'Marzo',
+    'Abril',
+    'Mayo',
+    'Junio',
+    'Julio',
+    'Agosto',
+    'Septiembre',
+    'Octubre',
+    'Noviembre',
+    'Diciembre',
   ];
   currentTime: any = `${
     this.months[this.targetDate.getMonth()]
