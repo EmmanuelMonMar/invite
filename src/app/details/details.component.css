@@ -25,3 +25,12 @@
 	height: 20px;
 	width: 20px;
 }
+.a-nav-search_logo {
+    background: #e10098;
+ 	height: auto;
+	width: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
