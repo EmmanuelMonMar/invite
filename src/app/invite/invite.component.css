@@ -8,13 +8,13 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -10%);
 	text-align: center;
 	color: white;
 }
 .book-cover h1 {
 	font-family: "Cherolina", sans-serif;
-	font-size: 90px;
+	font-size: 45px;
 	font-weight: 400;
 	color: #EFB810;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
@@ -35,20 +35,22 @@
 	width: 20px;
 }
 
-#video-background {
+/*#video-background {
   position: relative;
   width: auto; /* Ajusta el ancho según sea necesario */
-  height: auto; /* Ajusta la altura según sea necesario */
-  overflow: hidden;
-}
+  /*height: auto; /* Ajusta la altura según sea necesario */
+  /*overflow: hidden;
+}*/
 
 #video-background video {
-  position: relative;
+  /*position: relative;
   top: 0;
   left: 0;
   min-width: 100%;
   min-height: 100%;
   object-fit: cover; /* Ajusta el video manteniendo su relación de aspecto */
+  width: 100%;
+  height: auto;
 }
 .icon-size {
 	width: 20px;
