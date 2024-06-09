@@ -43,11 +43,12 @@
 }
 
 #video-background video {
-   position: relative;
-  right: 0;
-  bottom: 0;
+  position: relative;
+  top: 0;
+  left: 0;
   min-width: 100%;
-  min-height: 10%;
+  min-height: 100%;
+  object-fit: cover; /* Ajusta el video manteniendo su relación de aspecto */
 }
 .icon-size {
 	width: 20px;
