@@ -1,11 +1,11 @@
 .book-cover {
     background-size: cover; /* Ajusta el tamaño de la imagen al tamaño del div */
-	background: url("../../assets/pics/detailsCover.jpg") center no-repeat;
+	background: url("../../assets/pics/coverDetails.jpg") center/contain no-repeat;
 	text-align: center;
 }
 .book-cover h1 {
 	font-family: "Cherolina", sans-serif;
-	font-size: 90px;
+	font-size: 70px;
 	font-weight: 400;
 	color: #EFB810;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
